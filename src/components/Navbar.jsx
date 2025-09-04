@@ -49,12 +49,16 @@ export default function NavBar() {
       {/* Contact & CTA (desktop) */}
       <div className="hidden md:flex gap-6 font-bold items-center text-[var(--text)]">
         <a href="tel:+243993474764">+243 99 34 74 764</a>
-        <a
-          href="#order"
-          className="px-4 py-2 bg-[var(--var-second)] text-white rounded-full hover:opacity-90 transition"
-        >
-          Commandez
-        </a>
+                <a
+  href="https://wa.me/243993474764" // Remplace par ton numéro complet avec indicatif pays
+  onClick={() => setOpen(false)} // ferme le menu mobile après le clic
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-full hover:opacity-90 transition w-fit"
+>
+  <i className="fab fa-whatsapp text-xl"></i> {/* icône WhatsApp */}
+  WhatsApp
+</a>
       </div>
 
       {/* Bouton Hamburger (mobile) */}
@@ -79,13 +83,17 @@ export default function NavBar() {
           <a href="tel:+243993474764" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
             +243 99 34 74 764
           </a>
-          <a
-            href="#order"
-            onClick={() => setOpen(false)}
-            className="px-4 py-2 bg-[var(--var-second)] text-white rounded-full hover:opacity-90 transition w-fit"
-          >
-            Commandez
-          </a>
+         <a
+  href="https://wa.me/243993474764" // Remplace par ton numéro complet avec indicatif pays
+  onClick={() => setOpen(false)} // ferme le menu mobile après le clic
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-full hover:opacity-90 transition w-fit"
+>
+  <i className="fab fa-whatsapp text-xl"></i> {/* icône WhatsApp */}
+  WhatsApp
+</a>
+
         </div>
       </div>
     </header>
