@@ -1,6 +1,8 @@
+import Footer from "../components/Footer";
+
 export default function About() {
   return (
-    <section className="min-h-screen px-6 md:px-16 py-16 bg-[var(--bg)] text-[var(--text)]">
+    <section className="min-h-screen px-6 md:px-36 py-36 bg-[var(--bg)] text-[var(--text)]">
       
       {/* Intro */}
       <div className="max-w-4xl mx-auto text-center mb-12">
@@ -48,7 +50,8 @@ export default function About() {
           WhatsApp
         </a>
       </div>
-
+      <Footer/>
+  
     </section>
   );
 }

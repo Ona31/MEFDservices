@@ -1,6 +1,8 @@
+import Footer from "../components/Footer";
+
 export default function Contact() {
   return (
-    <section className="min-h-screen px-6 md:px-16 py-16 bg-[var(--bg)] text-[var(--text)]">
+    <section className="min-h-screen px-6 md:px-16 py-36 bg-[var(--bg)] text-[var(--text)]">
       {/* Intro */}
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h2 className="text-[var(--var-primary)] text-xl font-bold mb-2">Contactez-nous</h2>
@@ -59,6 +61,8 @@ export default function Contact() {
           </button>
         </form>
       </div>
+      <Footer/>
+
     </section>
   );
 }
