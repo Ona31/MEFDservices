@@ -8,7 +8,7 @@ export default function HeroSection(){
   Bienvenue chez
 </h2>
 
-<h1 className="font-extrabold text-4xl md:text-8xl text-[var(--text)]">
+<h1 className="font-extrabold text-5xl md:text-8xl text-[var(--text)]">
   MEFD Burger <br />la différence
 </h1>
 
