@@ -1,12 +1,19 @@
-# React + Vite
+# MEFD Burger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bienvenue chez MEFD Burger !**  
+Nous sommes une entreprise spécialisée dans la préparation de burgers artisanaux, faits avec des ingrédients frais et de qualité. Notre objectif est de vous offrir une expérience culinaire unique où chaque bouchée est un plaisir.
 
-Currently, two official plugins are available:
+## À propos de nous
+Chez MEFD Burger, nous croyons que la restauration rapide peut être synonyme de qualité. Nous combinons des recettes traditionnelles et des créations originales pour satisfaire tous les palais. Notre équipe passionnée met un point d’honneur à proposer des produits savoureux, préparés avec soin et servis dans un cadre convivial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Nos valeurs
+- **Qualité :** des ingrédients frais et soigneusement sélectionnés.  
+- **Goût :** des recettes uniques pour ravir vos papilles.  
+- **Passion :** une équipe engagée pour vous offrir la meilleure expérience possible.  
+- **Service :** rapide, efficace et souriant.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact
+Pour passer commande ou en savoir plus sur nos services :  
+- Téléphone : +243 99 34 74 764  
+- Instagram : [@MEFDBurger](https://www.instagram.com/MEFDBurger)  
+- WhatsApp : [Cliquez ici pour nous contacter](https://wa.me/243993474764)
