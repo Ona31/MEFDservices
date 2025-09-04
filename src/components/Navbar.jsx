@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
-  // Détecte le scroll
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -34,17 +32,32 @@ export default function NavBar() {
         {/* Navigation desktop */}
         <nav className="hidden md:flex items-center">
           <ul className="flex gap-8 text-[var(--text)] font-bold">
-            <li><a href="#home" className="hover:text-[var(--var-primary)] transition">Home</a></li>
-            <li><a href="#about" className="hover:text-[var(--var-primary)] transition">About</a></li>
-            <li><a href="#services" className="hover:text-[var(--var-primary)] transition">Services</a></li>
-            <li><a href="#contact" className="hover:text-[var(--var-primary)] transition">Contact</a></li>
+            <li>
+              <Link to="/" className="hover:text-[var(--var-primary)] transition">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-[var(--var-primary)] transition">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/services" className="hover:text-[var(--var-primary)] transition">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="hover:text-[var(--var-primary)] transition">
+                Contact
+              </Link>
+            </li>
           </ul>
         </nav>
 
         {/* Contact & CTA desktop */}
         <div className="hidden md:flex gap-4 items-center font-bold">
           <a href="tel:+243993474764">+243 99 34 74 764</a>
-          
           <a
             href="https://wa.me/243993474764"
             target="_blank"
@@ -72,11 +85,21 @@ export default function NavBar() {
         } ${scrolled ? "backdrop-blur-md bg-white/30 shadow-md" : "bg-white"}`}
       >
         <div className="flex flex-col gap-6 mt-20 px-6 text-[var(--text)] font-bold">
-          <a href="#home" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">Home</a>
-          <a href="#about" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">About</a>
-          <a href="#services" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">Services</a>
-          <a href="#contact" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">Contact</a>
-          <a href="tel:+243993474764" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">+243 99 34 74 764</a>
+          <Link to="/" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
+            Home
+          </Link>
+          <Link to="/about" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
+            About
+          </Link>
+          <Link to="/services" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
+            Services
+          </Link>
+          <Link to="/contact" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
+            Contact
+          </Link>
+          <a href="tel:+243993474764" onClick={() => setOpen(false)} className="hover:text-[var(--var-primary)]">
+            +243 99 34 74 764
+          </a>
           <a
             href="https://wa.me/243993474764"
             onClick={() => setOpen(false)}
