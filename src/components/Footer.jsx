@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[var(--var-second)] text-white py-12 px-6 md:px-16">
+    <footer className="bg-[var(--var-second)] text-white py-12 px-6 my-16 md:px-16">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8">
         {/* Logo / Nom */}
         <div className="flex flex-col gap-4">
