@@ -38,7 +38,7 @@ export default function MenuSection() {
       {item.prix}
     </span>
     <button className="bg-red-500 text-white p-2 rounded-full hover:bg-red-600">
-      🛒
+      <i class="fa-brands fa- fa-shopify"></i>
     </button>
   </div>
 </div>

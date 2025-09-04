@@ -8,7 +8,7 @@ export default function HeroSection(){
   Bienvenue chez
 </h2>
 
-<h1 className="font-extrabold text-8xl text-[var(--text)]">
+<h1 className="font-extrabold text-4xl md:text-8xl text-[var(--text)]">
   MEFD Burger <br />la différence
 </h1>
 
@@ -22,7 +22,7 @@ export default function HeroSection(){
 </a>
 
            </div>
-           <div className="flex  bg-[var(--var-primary)] md:w-full md:h-screen md:p-12 p-4">
+           <div className="flex  bg-[var(--var-primary)] w-full md:h-screen md:p-12 p-4">
              <img src={img} alt="" className="  md:absolute md:h-screen right-5" />
 
             </div>

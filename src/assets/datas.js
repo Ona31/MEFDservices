@@ -14,15 +14,15 @@ export const data_prod =[
     {
         Image : prod2,
         title : "Mega Crunch",
-        prix: "15000FC",
-        description:"Steak,latue,tomate,oignon,fromage,souce Burger"
+        prix: "18000FC",
+        description:" Double Steak,latue,tomate,oignon,fromage,souce Burger"
 
     },
     {
         Image : prod3,
-        title : "Uncle BG ",
-        prix: "15000FC",
-        description:"Steak,latue,tomate,oignon,fromage,souce Burger"
+        title : "Uncle BG +Frites",
+        prix: "25000FC",
+        description:"Double Steak,latue,tomate,oignon,fromage, tranche de bacone souce BG"
 
     }
 ]
