@@ -4,7 +4,7 @@ export default function HeroSection(){
     return(
         <section className="bloc md:flex w-full  md:h-screen apa">
            <div className="bloc bg-white w-full  md:px-30 px-4 py-32 ">
-          <h2 className="flex p-2 bg-[var(--var-second)] rounded-[50px] w-fit">
+          <h2 className="flex my-4 p-2 bg-[var(--var-second)] rounded-[50px] w-fit">
   Bienvenue chez
 </h2>
 
