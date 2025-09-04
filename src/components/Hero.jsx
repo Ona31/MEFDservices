@@ -17,9 +17,16 @@ export default function HeroSection(){
   De la viande tendre, du pain moelleux et des sauces maison pour <br />un goût unique à chaque bouchée !
 </p>
 
-<a href="#order" className="flex py-2 px-4 bg-[var(--var-primary)] rounded-[50px] w-fit text-white font-bold shadow-2xl">
-  Commandez maintenant
+<a
+  href="https://wa.me/243993474764" // Remplace par ton numéro complet avec indicatif pays
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 py-2 px-4 bg-green-500 rounded-[50px] w-fit text-white font-bold shadow-2xl hover:opacity-90 transition"
+>
+  <i className="fab fa-whatsapp text-xl"></i> {/* icône WhatsApp */}
+  Contactez-nous
 </a>
+
 
            </div>
            <div className="flex  bg-[var(--var-primary)] w-full md:h-screen md:p-12 p-4">

@@ -21,7 +21,7 @@ export default function MenuSection() {
     <img
       src={item.Image}
       alt={item.title}
-      className="w-28 drop-shadow-[0_20px_20px_rgba(0,0,0,0.2)]"
+      className="w-36 drop-shadow-[0_20px_20px_rgba(0,0,0,0.2)]"
     /> 
     <div className="mt-8 flex flex-col items-center text-center">
     <h4 className="font-bold text-xl">{item.title}</h4>
@@ -38,8 +38,9 @@ export default function MenuSection() {
       {item.prix}
     </span>
     <button className="bg-red-500 text-white p-2 rounded-full hover:bg-red-600">
-      <i class="fa-brands fa- fa-shopify"></i>
-    </button>
+  <i className="fa-brands fa-shopify text-xl"></i>
+</button>
+
   </div>
 </div>
 
