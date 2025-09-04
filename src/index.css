@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root{
+  --var-primary:#ff2525;
+  --var-second:#ffb825;
+  --text:#190909;
+  --shadow:#000000a9;
+
+  --tro:#fff5f4;
+}
+
+@keyframes apa {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
